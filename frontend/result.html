@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Résultat du Quiz Entrepreneur</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <main id="quiz-container" aria-live="polite">
+        <section id="result-section">
+            <h2 id="result-text"></h2>
+            <div id="diagnostic"></div>
+        </section>
+
+        <section id="contact-section">
+            <button id="restart-btn">Nous écrire sur WhatsApp</button>
+            <p class="or">ou</p>
+            <label for="contact" id="result-contact">Envoyez-nous votre contact pour un suivi (WhatsApp ou E-mail)</label>
+            <input type="text" name="contact" id="contact" placeholder="Votre WhatsApp ou E-mail" />
+            <button id="send-contact">Envoyer</button>
+            <button id="share-friend">Partager avec vos amis pour les aider</button>
+        </section>
+    </main>
+    <script src="js/result.js"></script>
+</body>
+</html>
