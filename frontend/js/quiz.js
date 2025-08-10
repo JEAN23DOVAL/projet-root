@@ -1,4 +1,4 @@
-// js/quiz.js
+// quiz.js
 const questions = [
   // 1. Existence du business
   {
@@ -214,7 +214,7 @@ function updateProgressBar() {
 
 function finishQuiz() {
   localStorage.setItem("quizScore", score);
-  window.location.href = "result.html";
+  window.location.href = "/frontend/result.html"; // Redirige vers la page de résultats
 }
 
 showQuestion(currentQuestionId);

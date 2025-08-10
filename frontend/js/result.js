@@ -58,7 +58,7 @@ shareFriendBtn.addEventListener("click", async () => {
   const shareData = {
     title: "Testez ce quiz pour booster votre entreprise !",
     text: "Faites ce quiz pour savoir où vous en êtes dans votre projet entrepreneurial.",
-    url: window.location.origin + "/quiz.html",
+    url: window.location.origin + "/frontend/quiz.html",
   };
 
   if (navigator.share) {
